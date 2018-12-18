@@ -1,0 +1,16 @@
+DROP DATABASE IF EXISTS portfoliodb;
+CREATE DATABASE portfoliodb;
+
+USE portfoliodb;
+
+CREATE TABLE ContactDB (
+    id INT(10) AUTO_INCREMENT NOT NULL,
+    name VARCHAR(255),
+    email VARCHAR(255),
+    message MEDIUMTEXT, 
+    createdAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    PRIMARY KEY(id)
+);
+
+DROP DATABASE IF EXISTS testdb;
+CREATE DATABASE testdb;
