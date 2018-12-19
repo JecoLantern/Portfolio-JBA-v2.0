@@ -21,8 +21,17 @@ module.exports = function(app) {
   //   });
   // });
 
+  // Render About Me Page
   app.get("/about", function(req, res) {
     res.render("about");
+  });
+  // Render Portfolio Page
+  app.get("/portfolio", function(req, res) {
+    res.render("portfolio");
+  });
+  // Render Contact Me Page
+  app.get("/contact", function(req, res) {
+    res.render("contact");
   });
 
   // Render 404 page for any unmatched routes
