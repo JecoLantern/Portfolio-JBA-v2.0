@@ -5,7 +5,8 @@ USE portfoliodb;
 
 CREATE TABLE ContactDB (
     id INT(10) AUTO_INCREMENT NOT NULL,
-    name VARCHAR(255),
+    firstname VARCHAR(255),
+    lastname VARCHAR(255),
     email VARCHAR(255),
     message MEDIUMTEXT, 
     createdAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP NOT NULL,

@@ -1,5 +1,5 @@
 body {
-    background-image: url("../images/xv.png");
+    background-image: url("../img/xv.png");
     display: flex;
     min-height: 100vh;
     flex-direction: column;

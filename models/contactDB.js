@@ -1,6 +1,7 @@
 module.exports = function(sequelize, DataTypes) {
     var ContactDB = sequelize.define("ContactDB", {
-      name: DataTypes.STRING,
+      firstname: DataTypes.STRING,
+      lastname: DataTypes.STRING,
       email: DataTypes.STRING,
       message: DataTypes.TEXT
     });

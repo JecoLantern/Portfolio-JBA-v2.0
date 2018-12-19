@@ -10,7 +10,8 @@ module.exports = function(app) {
 
   // Create a new example
   app.post("/api/contactdb", function(req, res) {
-    db.ContactDB.create(req.body).then(function(dbContacted) {
+    console.log(req.body)
+    db.ContactDB.create({firstname: req.body.firstname, lastname: req.body.lastname, email: req.body.email, message: req.body.message}).then(function(dbContacted) {
       res.json(dbContacted);
     });
   });

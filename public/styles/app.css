@@ -588,26 +588,26 @@ body {
     -webkit-animation: fade-out 9s infinite both;
     -moz-animation: fade-out 9s infinite both;
     animation: fade-out 9s infinite both;
-    background-image: url(../images/IMG-4249a-sm.jpg); }
+    background-image: url(../img/IMG-4249a-sm.jpg); }
     @media (min-width: 58em) {
       .sect-banner ul.kf-slider li {
-        background-image: url(../images/IMG-4249a.jpg); } }
+        background-image: url(../img/IMG-4249a.jpg); } }
   .sect-banner ul.kf-slider li:nth-child(2) {
-    background-image: url(../images/LRG-DSC01827-sm.jpg);
+    background-image: url(../img/LRG-DSC01827-sm.jpg);
     -webkit-animation-delay: 3s;
     -moz-animation-delay: 3s;
     animation-delay: 3s; }
     @media (min-width: 58em) {
       .sect-banner ul.kf-slider li:nth-child(2) {
-        background-image: url(../images/LRG-DSC01827.JPEG); } }
+        background-image: url(../img/LRG-DSC01827.JPEG); } }
   .sect-banner ul.kf-slider li:nth-child(3) {
-    background-image: url(../images/LRG-DSC02891-sm.jpg);
+    background-image: url(../img/LRG-DSC02891-sm.jpg);
     -webkit-animation-delay: 6s;
     -moz-animation-delay: 6s;
     animation-delay: 6s; }
     @media (min-width: 58em) {
       .sect-banner ul.kf-slider li:nth-child(3) {
-        background-image: url(../images/LRG-DSC02891.JPG); } }
+        background-image: url(../img/LRG-DSC02891.JPG); } }
   .sect-banner .banner-bg {
     height: 100% !important;
     width: 100%;
@@ -617,13 +617,13 @@ body {
     background-repeat: no-repeat;
     background-position: 50%;
     z-index: 0;
-    background-image: url(../images/IMG-4249a-sm.jpg);
+    background-image: url(../img/IMG-4249a-sm.jpg);
     -webkit-animation: slider-sm ease-in-out 30s both infinite;
     -moz-animation: slider-sm ease-in-out 30s both infinite;
     animation: slider-sm ease-in-out 30s both infinite; }
     @media (min-width: 58em) {
       .sect-banner .banner-bg {
-        background-image: url(../images/IMG-4249a.jpg);
+        background-image: url(../img/IMG-4249a.jpg);
         -webkit-animation: slider-lg ease-in-out 30s both infinite;
         -moz-animation: slider-lg ease-in-out 30s both infinite;
         animation: slider-lg ease-in-out 30s both infinite; } }
@@ -680,58 +680,58 @@ footer {
 -----------------------------------------------  */
 @-webkit-keyframes slider-sm {
   0% {
-    background-image: url(../images/IMG-4249a-sm.jpg); }
+    background-image: url(../img/IMG-4249a-sm.jpg); }
   33% {
-    background-image: url(../images/LRG-DSC01827-sm.jpg); }
+    background-image: url(../img/LRG-DSC01827-sm.jpg); }
   66% {
-    background-image: url(../images/LRG-DSC02891-sm.jpg); }
+    background-image: url(../img/LRG-DSC02891-sm.jpg); }
   100% {
-    background-image: url(../images/IMG-4249a-sm.jpg); } }
+    background-image: url(../img/IMG-4249a-sm.jpg); } }
 @-moz-keyframes slider-sm {
   0% {
-    background-image: url(../images/IMG-4249a-sm.jpg); }
+    background-image: url(../img/IMG-4249a-sm.jpg); }
   33% {
-    background-image: url(../images/LRG-DSC01827-sm.jpg); }
+    background-image: url(../img/LRG-DSC01827-sm.jpg); }
   66% {
-    background-image: url(../images/LRG-DSC02891-sm.jpg); }
+    background-image: url(../img/LRG-DSC02891-sm.jpg); }
   100% {
-    background-image: url(../images/IMG-4249a-sm.jpg); } }
+    background-image: url(../img/IMG-4249a-sm.jpg); } }
 @keyframes slider-sm {
   0% {
-    background-image: url(../images/IMG-4249a-sm.jpg); }
+    background-image: url(../img/IMG-4249a-sm.jpg); }
   33% {
-    background-image: url(../images/LRG-DSC01827-sm.jpg); }
+    background-image: url(../img/LRG-DSC01827-sm.jpg); }
   66% {
-    background-image: url(../images/LRG-DSC02891-sm.jpg); }
+    background-image: url(../img/LRG-DSC02891-sm.jpg); }
   100% {
-    background-image: url(../images/IMG-4249a-sm.jpg); } }
+    background-image: url(../img/IMG-4249a-sm.jpg); } }
 /*----------------------------------------------   
 --Keyframes Slider - Lg
 -----------------------------------------------  */
 @-webkit-keyframes slider-lg {
   0% {
-    background-image: url(../images/IMG-4249a.jpg); }
+    background-image: url(../img/IMG-4249a.jpg); }
   33% {
-    background-image: url(../images/LRG-DSC01827.JPEG); }
+    background-image: url(../img/LRG-DSC01827.JPEG); }
   66% {
-    background-image: url(../images/LRG-DSC02891.JPG); }
+    background-image: url(../img/LRG-DSC02891.JPG); }
   100% {
-    background-image: url(../images/IMG-4249a.jpg); } }
+    background-image: url(../img/IMG-4249a.jpg); } }
 @-moz-keyframes slider-lg {
   0% {
-    background-image: url(../images/IMG-4249a.jpg); }
+    background-image: url(../img/IMG-4249a.jpg); }
   33% {
-    background-image: url(../images/LRG-DSC01827.JPEG); }
+    background-image: url(../img/LRG-DSC01827.JPEG); }
   66% {
-    background-image: url(../images/LRG-DSC02891.JPG); }
+    background-image: url(../img/LRG-DSC02891.JPG); }
   100% {
-    background-image: url(../images/IMG-4249a.jpg); } }
+    background-image: url(../img/IMG-4249a.jpg); } }
 @keyframes slider-lg {
   0% {
-    background-image: url(../images/IMG-4249a.jpg); }
+    background-image: url(../img/IMG-4249a.jpg); }
   33% {
-    background-image: url(../images/LRG-DSC01827.JPEG); }
+    background-image: url(../img/LRG-DSC01827.JPEG); }
   66% {
-    background-image: url(../images/LRG-DSC02891.JPG); }
+    background-image: url(../img/LRG-DSC02891.JPG); }
   100% {
-    background-image: url(../images/IMG-4249a.jpg); } }
+    background-image: url(../img/IMG-4249a.jpg); } }
