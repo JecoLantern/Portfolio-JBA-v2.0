@@ -105,6 +105,28 @@ nav a {
     font-size: 1rem !important;
 }
 
+.err404 {
+    margin-top: 13rem;
+    width: 80%;
+    border: 3px solid #1c486b;
+}
+  
+.err404msg {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    color: #0d7a6d;
+    text-align: center;
+    text-shadow:
+    -1px -1px 0  white,
+    1px -1px 0  white,
+    -1px 1px 0  white,
+    1px 1px 0  white;
+}
+  
+.back2home {
+    font-weight: bold;
+}
+
 @media only screen and (max-width: 1024px) {
     nav .brand-logo {
         font-size: 0.8rem;
