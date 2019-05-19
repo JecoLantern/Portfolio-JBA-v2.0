@@ -5,7 +5,7 @@
         <ul id="nav-mobile" class="right hide-on-med-and-down">
             <li><a href="/about" class="nav-link">About</a></li>
             <li><a href="/portfolio" class="nav-link">Portfolio</a></li>
-            <li><a href="/contact" class="nav-link">Contact</a></li>
+            {{!-- <li><a href="/contact" class="nav-link">Contact</a></li> --}}
         </ul>
     </div>
 </nav>
@@ -21,13 +21,175 @@
             </div></li>
         <li><a href="/about">About</a></li>
         <li><a href="/portfolio">Portfolio</a></li>
-        <li><a href="/contact">Contact</a></li>
+        {{!-- <li><a href="/contact">Contact</a></li> --}}
     </ul>
 
 <main>
     <div class="container">
         <h2 class="header PortfolioMe animated fadeInDown slower delay-5s">Portfolio</h2>
         <div class="row">
+            <div class="col s12 m6 l6 xl4">
+                <div class="card sticky-action animated fadeInUp slower delay-5s">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="responsive-img" src="/img/magemana.png" width="200px" height="200px">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Mage Manager<i class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Mage Manager<i class="material-icons right">close</i></span><br><br>
+                        <p align="justify">A fifth edition dungeons and dragons character generator. The app aims to help new and old players to build a character of their choice. It is a complete generator that will allow players to not only store their characters but also track their stats and in the futute will allow D&D parties to host and play their enitre sessions within our app. <br><br>Technologies Used: -Bootstrap for CSS Framework; -MERN Stack; -NPM packages; -Passport for user authentication.<br><br><br>Contributors: -Troy G; -Austin S; -Jeric A.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="https://magemana.herokuapp.com/">Go to Mage Manager!</a></div>
+                    <div class="card-action">
+                        <a href="https://github.com/JecoLantern/project-3-magemana">Go to GitHub Repository!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l6 xl4">
+                <div class="card sticky-action animated fadeInUp slower delay-5s">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="responsive-img" src="/img/googlebooksearch.png" width="200px" height="200px">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Google Book Search<i class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Google Book Search<i class="material-icons right">close</i></span><br><br>
+                        <p align="justify">The app allows the user to search a title of a book they have in mind. Using Google Books API, the app will return titles specific and related to the query of choice. The user is also able to view the titles, purchase through google as well as save individual title/result to be viewed at a later time. <br><br>The app is built using React.js. Clone locally and run 'npm start'.</p>
+                    </div>
+                    {{!-- <div class="card-action">
+                        <a href="#!">Go to What's My Worth?</a></div> --}}
+                    <div class="card-action">
+                        <a href="https://github.com/JecoLantern/Google-Book-Search">Go to GitHub Repository!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l6 xl4">
+                <div class="card sticky-action animated fadeInUp slower delay-5s">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="responsive-img" src="/img/doorstep2.png" width="200px" height="200px">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">News Scraper<i class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">News Scraper<i class="material-icons right">close</i></span><br><br>
+                        <p align="justify">Serves the latest news from Vox. Made by JecoLantern.<br><br>Technologies Used: -Express.js; -Express Handlebars; -Mongoose; -Cheerio; -Javascript</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="https://mongo-news1-jba.herokuapp.com/">Go to News Scraper Mongo!</a></div>
+                    <div class="card-action">
+                        <a href="https://github.com/JecoLantern/NewsScraper-Mongo">Go to GitHub Repository!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l6 xl4">
+                <div class="card sticky-action animated fadeInUp slower delay-5s">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="responsive-img" src="/img/clickygame.png" width="200px" height="200px">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Clicky Game<i class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Clicky Game<i class="material-icons right">close</i></span><br><br>
+                        <p align="justify">The app is a memory game built using React.js. The objective of the app is to break the UI into components, manage component state and respond to user events. <br><br>Technologies Used: -Built using Create React App.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="https://clicky-game-dota2-jba.herokuapp.com/">Go to Clicky Game!</a></div>
+                    <div class="card-action">
+                        <a href="https://github.com/JecoLantern/clicky-DOTA2">Go to GitHub Repository!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l6 xl4">
+                <div class="card sticky-action animated fadeInUp slower delay-5s">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="responsive-img" src="/img/doorstep2.png" width="200px" height="200px">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">What's My Worth?<i class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">What's My Worth?<i class="material-icons right">close</i></span><br><br>
+                        <p align="justify">With this project, the user is able to search an average price of a given item. Data searched and scraped from eBay then saved into a MySQL database which then populates the search as a listed item. Listed items can be viewed individually wherein a price graph is presented.<br><br>Technologies Used: -Materialize.css for CSS Framework; -Javascript and JQuery; -MySQL for Data storage; -NPM scraper for data searching and scraping; -D3 graph chart for data presentation.<br><br><br>Contributors: -Troy G; -Daniel G; -Alfonso B; -Jeric A.</p>
+                    </div>
+                    {{!-- <div class="card-action">
+                        <a href="#!">Go to What's My Worth?</a></div> --}}
+                    <div class="card-action">
+                        <a href="https://github.com/JecoLantern/Whats-My-Worth">Go to GitHub Repository!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l6 xl4">
+                <div class="card sticky-action animated fadeInUp slower delay-5s">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="responsive-img" src="/img/burger.png" width="200px" height="200px">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">La Hamburguesa (The Burger App)<i class="material-icons right">more_vert</i></span>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">La Hamburguesa (The Burger App)<i class="material-icons right">close</i></span><br><br>
+                            <p align="justify">
+                                A full-stack web application that gives its users to make and "eat" new and/or listed varieties of burgers. Data is persisted in a MySQL database that allows its users to interact with another's submissions.<br><br>
+                                <strong>Required:</strong>
+                                <ul>
+                                    <li>MySQL</li>
+                                    <li>Node.js</li>
+                                </ul>
+                            </p>
+                        </div>
+                        <div class="card-action">
+                            <a href="https://comer-la-hamburguesa-eatburger.herokuapp.com/">Go to La Hamburguesa on Heroku App</a></div>
+                        <div class="card-action">
+                            <a href="https://github.com/JecoLantern/La-Hamburguesa-The-Burger-">Go to GitHub Repository!</a>
+                        </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l6 xl4">
+                <div class="card sticky-action animated fadeInUp slower delay-5s">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="responsive-img" src="/img/Friend-Finder.png" width="200px" height="200px">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Friend Finder<i class="material-icons right">more_vert</i></span>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Friend Finder<i class="material-icons right">close</i></span><br><br>
+                            <p align="justify">
+                                This application is based on Node and Express that matches users based on personality test.<br><br>
+                                The test contains 50 questions answerable by 1(Strongly Disagree) to 5(Strongly Agree).<br><br>
+                                Note: This is a first attempt to deploy the application to Heroku.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="https://friend-finder-by-jecolantern.herokuapp.com/">Go to Friend Finder on Heroku App!</a></div>
+                        <div class="card-action">
+                            <a href="https://github.com/JecoLantern/FriendFinder">Go to GitHub Repository!</a>
+                        </div>
+                </div>
+            </div>
+            {{!-- <div class="col s12 m6 l6 xl4">
+                <div class="card sticky-action animated fadeInUp slower delay-5s">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="responsive-img" src="/img/doorstep2.png" width="200px" height="200px">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Mage Manager<i class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Mage Manager<i class="material-icons right">close</i></span><br><br>
+                        <p align="justify">With this project, the user is able to search an average price of a given item. Data searched and scraped from eBay then saved into a MySQL database which then populates the search as a listed item. Listed items can be viewed individually wherein a price graph is presented.<br><br>Technologies Used: -Materialize.css for CSS Framework; -Javascript and JQuery; -MySQL for Data storage; -NPM scraper for data searching and scraping; -D3 graph chart for data presentation.<br><br><br>Contributors: -Troy G; -Daniel G; -Alfonso B; -Jeric A.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#!">Go to What's My Worth?</a></div>
+                    <div class="card-action">
+                        <a href="#!">Go to GitHub Repository!</a>
+                    </div>
+                </div>
+            </div> --}}
             <div class="col s12 m6 l6 xl4">
                 <div class="card sticky-action animated fadeInUp slower delay-5s">
                     <div class="card-image waves-effect waves-block waves-light">
@@ -231,73 +393,9 @@
                         </div>
                 </div>
             </div>
-            <div class="col s12 m6 l6 xl4">
-                <div class="card sticky-action animated fadeInUp slower delay-5s">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img class="responsive-img" src="/img/Friend-Finder.png" width="200px" height="200px">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">Friend Finder<i class="material-icons right">more_vert</i></span>
-                        </div>
-                        <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4">Friend Finder<i class="material-icons right">close</i></span><br><br>
-                            <p align="justify">
-                                This application is based on Node and Express that matches users based on personality test.<br><br>
-                                The test contains 50 questions answerable by 1(Strongly Disagree) to 5(Strongly Agree).<br><br>
-                                Note: This is a first attempt to deploy the application to Heroku.</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="https://friend-finder-by-jecolantern.herokuapp.com/">Go to Friend Finder on Heroku App!</a></div>
-                        <div class="card-action">
-                            <a href="https://github.com/JecoLantern/FriendFinder">Go to GitHub Repository!</a>
-                        </div>
-                </div>
-            </div>
-            <div class="col s12 m6 l6 xl4">
-                <div class="card sticky-action animated fadeInUp slower delay-5s">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img class="responsive-img" src="/img/burger.png" width="200px" height="200px">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">La Hamburguesa (The Burger App)<i class="material-icons right">more_vert</i></span>
-                        </div>
-                        <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4">La Hamburguesa (The Burger App)<i class="material-icons right">close</i></span><br><br>
-                            <p align="justify">
-                                A full-stack web application that gives its users to make and "eat" new and/or listed varieties of burgers. Data is persisted in a MySQL database that allows its users to interact with another's submissions.<br><br>
-                                <strong>Required:</strong>
-                                <ul>
-                                    <li>MySQL</li>
-                                    <li>Node.js</li>
-                                </ul>
-                            </p>
-                        </div>
-                        <div class="card-action">
-                            <a href="https://comer-la-hamburguesa-eatburger.herokuapp.com/">Go to La Hamburguesa on Heroku App</a></div>
-                        <div class="card-action">
-                            <a href="https://github.com/JecoLantern/La-Hamburguesa-The-Burger-">Go to GitHub Repository!</a>
-                        </div>
-                </div>
-            </div>
-            <div class="col s12 m6 l6 xl4">
-                <div class="card sticky-action animated fadeInUp slower delay-5s">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="responsive-img" src="/img/doorstep2.png" width="200px" height="200px">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">What's My Worth?<i class="material-icons right">more_vert</i></span>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">What's My Worth?<i class="material-icons right">close</i></span><br><br>
-                        <p align="justify">With this project, the user is able to search an average price of a given item. Data searched and scraped from eBay then saved into a MySQL database which then populates the search as a listed item. Listed items can be viewed individually wherein a price graph is presented.<br><br>Technologies Used: -Materialize.css for CSS Framework; -Javascript and JQuery; -MySQL for Data storage; -NPM scraper for data searching and scraping; -D3 graph chart for data presentation.<br><br><br>Contributors: -Troy G; -Daniel G; -Alfonso B; -Jeric A.</p>
-                    </div>
-                    <div class="card-action">
-                        <a href="#!">Go to What's My Worth?</a></div>
-                    <div class="card-action">
-                        <a href="#!">Go to GitHub Repository!</a>
-                    </div>
-                </div>
-            </div>
+
+
+
         </div>
 
     </div>
