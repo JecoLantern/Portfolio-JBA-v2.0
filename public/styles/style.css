@@ -43,6 +43,10 @@ nav .brand-logo {
     width: 100%;
     background: #ffffff;
 }
+.connectWMe {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
 .cardContentConnectWithMe {
     padding: 0 !important;
 }
@@ -179,5 +183,11 @@ nav a {
     .downloadResume {
         font-size: 0.3rem;
         width: 10rem;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    .flow-text {
+        font-size: 1.5rem;
     }
 }
